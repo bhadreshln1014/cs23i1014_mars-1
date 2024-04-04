@@ -1,0 +1,29 @@
+#!/bin/bash
+# Comment
+echo "Hello World"
+myName="Bhadresh"
+declare -r NUM1=5
+NUM2=4
+num3=$((NUM1+NUM2))
+num4=$((NUM1-NUM2))
+num5=$((NUM1*NUM2))
+num6=$((NUM1/NUM2))
+echo "5+4=$num3"
+echo "5-4=$num4"
+echo "5*4=$num5"
+echo "5/4=$num6"
+echo $((5**2))
+echo $((5%4))
+rand=5
+let rand+=4
+echo "$rand"
+echo "rand++ = $((rand++))"
+echo "rand-- = $((rand--))"
+echo "--rand = $((--rand))"
+echo "++rand = $((++rand))"
+cat<< END
+This test
+prints on
+many lines
+END
+

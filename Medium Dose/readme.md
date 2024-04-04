@@ -1,0 +1,2 @@
+I have only attempted the first question of medium dose as i couldnt get an idea to do the 2nd one
+I learnt quite a few concepts from OOPs including Classes and Objects, and also learnt how to use lambda functions, what constructors are and so on
